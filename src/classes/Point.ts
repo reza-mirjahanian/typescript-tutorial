@@ -42,6 +42,18 @@ class Point3D extends Point {
   }
 }
 
+class Counter{
+    static count = 0;
+    constructor() {
+        Counter.count++;
+    }
+
+    static printCount(){
+        console.log(Counter.count);
+    }
+
+}
+
 const run = () => {
   const point1 = new Point(1, 2);
   const point2 = new Point(4, 5);
@@ -52,6 +64,12 @@ const run = () => {
   const point3d2 = new Point3D(1, 1, 1);
   point3d1.add(point3d2);
   point3d1.print();
+  //
+  new Counter();
+  new Counter();
+  new Counter();
+  Counter.printCount();
+
 
 
 }
