@@ -1,3 +1,3 @@
-import testPoint from './classes/Point';
+import testPoint from './classes/Iterator';
 
 testPoint();
