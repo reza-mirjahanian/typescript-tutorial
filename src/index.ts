@@ -1,3 +1,4 @@
-import testPoint from './classes/Iterator';
+import {Utility} from './classes/Namespace';
 
-testPoint();
+
+Utility.log('test')
