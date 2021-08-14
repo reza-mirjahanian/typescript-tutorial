@@ -1,3 +1,10 @@
+enum CardSuit {
+    Clubs,
+    Diamonds,
+    Hearts,
+    Spades
+}
+
 export namespace Utility {
     export function log(message : string){
         console.log(message)

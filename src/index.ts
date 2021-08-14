@@ -1,4 +1,4 @@
-import {Utility} from './classes/Namespace';
-
-
-Utility.log('test')
+// import test from './classes/Interface';
+//
+//
+// console.log(test)
