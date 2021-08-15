@@ -16,3 +16,10 @@ function handler(event: Event) {
 function isFoo(arg: any): arg is Foo {
     return arg.foo !== undefined;
 }
+
+let readFoo: ReadonlyArray<number> = [1, 2, 3];
+
+
+//OK
+function foo5<T>(x: T): T { return x; }
+const foo4 = <T>(x: T) => x; // ERROR :
